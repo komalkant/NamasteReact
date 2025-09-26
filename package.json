@@ -1,0 +1,33 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Namaste react",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komalkant/NamasteReact.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "komalkant"
+  ],
+  "author": "komalkant Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komalkant/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/komalkant/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

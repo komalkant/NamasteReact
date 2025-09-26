@@ -1,0 +1,135 @@
+.header-component {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
+    height: 120px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-items {
+    margin: 0 100px;
+    padding: 10px;
+
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+    /* background-color: #e6df20; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.nav-items > ul > li:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-component input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-component button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-component button:hover {
+    background-color: #0056b3;
+}
+
+.body-component {
+    border: 1px solid #ccc  ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+}
+.restaurant-card {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.restaurant-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.food-image {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+.food-details {
+    margin: 10px 0;
+    font-size: 14px;
+    display: flex;
+}
+.footer-component {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.footer-component p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.footer-component a {
+    color: #007bff;
+    text-decoration: none;
+}
+.footer-component a:hover {
+    text-decoration: underline;
+}
+
+.filter-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
